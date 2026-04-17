@@ -253,13 +253,13 @@ experiment8/
 ![Login Page](screenshot/Login.png)
 
 ### 2. Dashboard with Token Display
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](screenshot/Dashboard.png)
 
 ### 3. Protected Data Fetched Successfully
-![Protected Data](screenshots/Dashboard.png)
+![Protected Data](screenshot/Dashboard.png)
 
 ### 4. Invalid credentials
-![invalid](screenshots/invalid.png)
+![invalid](screenshot/invalid.png)
 
 
 ---
