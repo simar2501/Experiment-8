@@ -17,13 +17,11 @@ function Dashboard() {
   const username = sessionStorage.getItem("username");
 
   useEffect(() => {
-    if (!token) {
-      window.location.href = "/";
-    } else {
-      // Show shortened token for display
-      setTokenDisplay(token.substring(0, 30) + "...");
-    }
-  }, []);
+  if (!token) {
+    window.location.href = "/";
+  }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, []);
 
   const fetchProtectedData = async () => {
     setError("");
